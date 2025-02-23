@@ -1,0 +1,33 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+
+    font-family: var(--mainFont);
+}
+
+:root {
+    /* Colors */
+    --primary: #171717;
+    --secondary: #ededed;
+    --tertiary: #ababab;
+    --bgBtnColot: #1E1E1E;
+
+    /* Measures */
+    --mainMeasure: 1em;
+    --secMainMeasure: 3em;
+    --secMeasure: 2em;
+    --rdMeasure: 0.5em;
+    --thMeasure: 0.2em;
+    --diffMeasure: 0.01em;
+    --fontSizeTitle: 1.3em;
+    --fontSizeParagraph: 1.1em;
+
+    /* Fonts */
+    /* --mainFont: "Outfit", serif; */
+}
