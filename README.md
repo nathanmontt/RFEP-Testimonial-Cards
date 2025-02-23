@@ -8,6 +8,7 @@ Projeto de Frontend do site <a href="https://roadmap.sh/">roadmap.sh</a>
 * [Sobre o Projeto](#about)
 * [Habilidades Necessárias](#abilities)
 * [*Features* Futuras](#fut-feats)
+* [Links Úteis](#links)
 * [Créditos](#credits)
 
 
@@ -42,7 +43,7 @@ Requisito | Explicação
 **EEstrutura** | Estruturar o site para que seja fácil estilizá-lo depois
 **Páginas** | Aprender a criar diversas páginas no seu website
 -->
-<!--
+
 <h1 id="links"> Links Úteis </h1>
 
 
@@ -50,9 +51,9 @@ A seção abaixo foi adicionada para caso queira verificar algum conteúdo de es
 
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
-**Hosting** | <a href="https://rikublock.dev/docs/tutorials/github-pages-cloudflare/">Set up GitHub Pages with Cloudflare and a Custom Domain</a> <br> <a href="https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/">Secure and fast GitHub Pages with CloudFlare</a>
-**roadmap.sh** | O link sobre como o projeto pode ser encontrado <a href="https://roadmap.sh/projects/changelog-component">aqui</a>
--->
+**CSS** | <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Grid Layout Guide</a>
+**roadmap.sh** | O link sobre como o projeto pode ser encontrado <a href="https://roadmap.sh/projects/testimonial-cards">aqui</a>
+
 <h1 id="credits"> Créditos </h1>
 
 Copyright © 2025, Nathan Monteiro
