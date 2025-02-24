@@ -105,8 +105,39 @@ main {
     font-weight: 300;
 }
 
+/* TESTIMNONIAL CARD 2 */
 .container-testimonial-card-2 {
-    border: 3px solid red;
+    border: 3px solid var(--primary);
+    border-radius: 1em;
 }
 
-/* TESTIMNONIAL CARD 2 */
+.container-testimonial-card-2 .history-text {
+    padding: var(--mainMeasure) var(--mainMeasure) 0 var(--mainMeasure);
+}
+
+.container-information {
+    padding: var(--mainMeasure);
+    display: flex;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.container-information .person-prof-pic {
+    width: 4em;
+    aspect-ratio: 1 /1;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.container-information .container-text-info {
+    margin-left: 1em;
+}
+
+.container-text-info .name {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.container-text-info .profession {
+    font-weight: 300;
+}
