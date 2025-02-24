@@ -51,7 +51,7 @@ A seção abaixo foi adicionada para caso queira verificar algum conteúdo de es
 
 *Tipo do Estudo* | Nome do Artigo
 :---------: | :------:
-**CSS** | <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Grid Layout Guide</a>
+**CSS** | <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Grid Layout Guide</a> <br> <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Flexbox Layout Guide</a>
 **roadmap.sh** | O link sobre como o projeto pode ser encontrado <a href="https://roadmap.sh/projects/testimonial-cards">aqui</a>
 
 <h1 id="credits"> Créditos </h1>
