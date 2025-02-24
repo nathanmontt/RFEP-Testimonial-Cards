@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -16,7 +18,7 @@
     --primary: #171717;
     --secondary: #ededed;
     --tertiary: #ababab;
-    --bgBtnColot: #1E1E1E;
+    --testimonialBoxOne: #2c2c2c;
 
     /* Measures */
     --mainMeasure: 1em;
@@ -29,5 +31,58 @@
     --fontSizeParagraph: 1.1em;
 
     /* Fonts */
-    /* --mainFont: "Outfit", serif; */
+    --mainFont: "Roboto", serif;
+}
+
+body {
+    min-height: 100vh;
+    /* display: grid;
+    place-items: center; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FIRST TESTIMONIAL */
+main {
+    width: 50%;
+}
+
+.container-grid-testim-1-2 {
+    display: flex;
+}
+
+.container-testimonial-card-1 {
+    border: 3px solid red;
+}
+
+.container-testimonial-card-1 .container-testimonial-box {
+    background-color: var(--testimonialBoxOne);
+}
+
+.container-testimonial-box .container-text {
+    color: var(--secondary);
+}
+
+/* .container-text .text {} */
+/* .container-text .praise {} */
+.container-testimonial-card-1 .ballon-part {}
+
+.container-testimonial-card-1 .container-person {
+    display: flex;
+    align-items: center;
+}
+
+.container-person .profile-pic {
+    width: 7em;
+    aspect-ratio: 1 /1;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.container-person .container-info {}
+.container-info .name {}
+.container-info .profession {}
+.container-testimonial-card-2 {
+    border: 3px solid red;
 }
