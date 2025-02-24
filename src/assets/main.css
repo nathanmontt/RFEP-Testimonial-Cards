@@ -35,13 +35,10 @@
 }
 
 body {
-    min-height: 100vh;
-    /* display: grid;
-    place-items: center; */
-    
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 /* FIRST TESTIMONIAL */
@@ -54,35 +51,62 @@ main {
 }
 
 .container-testimonial-card-1 {
-    border: 3px solid red;
+    margin-right: 1em;
+    padding: 1em;
 }
 
 .container-testimonial-card-1 .container-testimonial-box {
     background-color: var(--testimonialBoxOne);
+    border-radius: 1em;
 }
 
 .container-testimonial-box .container-text {
     color: var(--secondary);
+    padding: var(--mainMeasure);
 }
 
-/* .container-text .text {} */
-/* .container-text .praise {} */
-.container-testimonial-card-1 .ballon-part {}
+.container-text .praise {
+    margin-top: 1.3em;
+}
+
+.container-testimonial-card-1 .ballon-part {
+    width: 1.2em;
+    height: 1.5em;
+    background-color: var(--testimonialBoxOne);
+    position: absolute;
+    left: 26.3em;
+    border-radius: 100%;
+    top: 22.2em;
+}
 
 .container-testimonial-card-1 .container-person {
     display: flex;
     align-items: center;
+    margin-top: var(--mainMeasure);
 }
 
 .container-person .profile-pic {
-    width: 7em;
+    width: 4em;
     aspect-ratio: 1 /1;
     object-fit: cover;
     border-radius: 100%;
 }
-.container-person .container-info {}
-.container-info .name {}
-.container-info .profession {}
+
+.container-person .container-info {
+    margin-left: .7em;
+}
+
+.container-info .name {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.container-info .profession {
+    font-weight: 300;
+}
+
 .container-testimonial-card-2 {
     border: 3px solid red;
 }
+
+/* TESTIMNONIAL CARD 2 */
